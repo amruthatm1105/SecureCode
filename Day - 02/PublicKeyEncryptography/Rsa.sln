@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35707.178 d17.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KeyGenerator", "Rsa\KeyGenerator.csproj", "{837AB1A4-6E41-4321-99D7-6E076C6CDD8F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PatientApp", "PatientApp\PatientApp.csproj", "{A0855A4B-9647-4BCB-B30D-5BFFF52EB04E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DoctorApp", "DoctorApp\DoctorApp.csproj", "{DA23622A-34FB-4D19-A282-AE89EFA3FD66}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{338CFCF8-0F52-4F00-A343-4B8EDF93F4A0}"
+	ProjectSection(SolutionItems) = preProject
+		PatientApp\bin\Debug\encrypted_patient_data.bin = PatientApp\bin\Debug\encrypted_patient_data.bin
+		patient_data.txt = patient_data.txt
+		private_key.xml = private_key.xml
+		public_key.xml = public_key.xml
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{837AB1A4-6E41-4321-99D7-6E076C6CDD8F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{837AB1A4-6E41-4321-99D7-6E076C6CDD8F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{837AB1A4-6E41-4321-99D7-6E076C6CDD8F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{837AB1A4-6E41-4321-99D7-6E076C6CDD8F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A0855A4B-9647-4BCB-B30D-5BFFF52EB04E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A0855A4B-9647-4BCB-B30D-5BFFF52EB04E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A0855A4B-9647-4BCB-B30D-5BFFF52EB04E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A0855A4B-9647-4BCB-B30D-5BFFF52EB04E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DA23622A-34FB-4D19-A282-AE89EFA3FD66}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA23622A-34FB-4D19-A282-AE89EFA3FD66}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA23622A-34FB-4D19-A282-AE89EFA3FD66}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA23622A-34FB-4D19-A282-AE89EFA3FD66}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
